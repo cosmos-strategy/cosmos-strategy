@@ -18,7 +18,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
 
     const resend = new Resend(env.RESEND_API_KEY);
     const response = await resend.emails.create({
-      from: "cosmos-strategy@jeyakumarjeyaraj.in",
+      from: "contact@cosmostrategy.com",
       to: validatedBody.email,
       subject: "Thank you for contacting us",
       text: `Thank you for contacting us. We will get back to you soon.`,
