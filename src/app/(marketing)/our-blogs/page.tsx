@@ -4,6 +4,7 @@ import { FC } from "react";
 import { db } from "@/server/db";
 import { blogTable } from "@/server/db/schema";
 import OrbitSymbol from "@/app/_components/atomic-animation";
+import { Metadata } from "next";
 
 export const revalidate = 0; // This forces the page to be dynamic
 
@@ -11,6 +12,11 @@ async function getData() {
   const data = await db.select().from(blogTable);
   return data;
 }
+
+export const metadata: Metadata = {
+  title: "Our Blogs | Cosmos Strategy",
+  description: "Our Blogs | Cosmos Strategy",
+};
 
 interface pageProps {}
 

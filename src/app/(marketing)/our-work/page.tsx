@@ -15,6 +15,7 @@ import Image from "next/image";
 import IpSuitsAccordian from "@/app/_components/ip-suits-accordian";
 import OurWorkMapSection from "@/app/_components/our-work-map-section";
 import { ScrollToHash } from "@/app/_components/scroll-to-hash";
+import { Metadata } from "next";
 
 interface pageProps {}
 
@@ -37,6 +38,11 @@ async function getData() {
 const chooseColor = function () {
   const value = Math.floor(Math.random() * 5);
   return colors[value];
+};
+
+export const metadata: Metadata = {
+  title: "Our Work | Cosmos Strategy",
+  description: "Our Work | Cosmos Strategy",
 };
 
 const page = async ({}: pageProps) => {

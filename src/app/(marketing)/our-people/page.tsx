@@ -5,6 +5,7 @@ import { peopleTable } from "@/server/db/schema";
 import AccordianTeamThumbnail from "@/app/_components/accordian-team-thumbnail";
 import { ScrollToHash } from "@/app/_components/scroll-to-hash";
 import { Suspense } from "react";
+import { Metadata } from "next";
 
 interface pageProps {}
 
@@ -15,6 +16,10 @@ async function getData() {
   return data;
 }
 
+export const metadata: Metadata = {
+  title: "Our People | Cosmos Strategy",
+  description: "Our People | Cosmos Strategy",
+};
 const page = async ({}: pageProps) => {
   const data = await getData();
 

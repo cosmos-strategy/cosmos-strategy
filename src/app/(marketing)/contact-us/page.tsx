@@ -9,9 +9,13 @@ import Link from "next/link";
 import ContactForm from "@/app/_components/contact-form";
 import InfiniteMap from "@/app/_components/infinite-map";
 import OurOffices from "@/app/_components/our-offices";
-
+import { Metadata } from "next";
 interface pageProps {}
 
+export const metadata: Metadata = {
+  title: "Contact Us | Cosmos Strategy",
+  description: "Contact Us | Cosmos Strategy",
+};
 const page: FC<pageProps> = ({}) => {
   return (
     <>

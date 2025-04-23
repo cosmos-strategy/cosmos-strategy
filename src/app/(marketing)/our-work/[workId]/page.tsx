@@ -4,11 +4,17 @@ import { db } from "@/server/db";
 import { eq } from "drizzle-orm";
 import { slugify } from "@/lib/utils";
 import { notFound } from "next/navigation";
+import { Metadata } from "next";
 
 interface pageProps {
   params: { workId: string };
   searchParams: { query?: string };
 }
+
+export const metadata: Metadata = {
+  title: "Our Work | Cosmos Strategy",
+  description: "Our Work | Cosmos Strategy",
+};
 
 export const revalidate = 0; // This forces the page to be dynamic
 

@@ -9,8 +9,14 @@ import CosmicSvgAnimation from "@/app/_components/cosmic-svg-animation";
 import { Icons } from "@/app/_components/icons";
 import Link from "next/link";
 import { buttonVariants } from "@/app/_components/button";
+import { Metadata } from "next";
 
 interface pageProps {}
+
+export const metadata: Metadata = {
+  title: "Our Profile | Cosmos Strategy",
+  description: "Our Profile | Cosmos Strategy",
+};
 
 const page: FC<pageProps> = ({}) => {
   return (

@@ -1,26 +1,32 @@
-import { notFound } from "next/navigation"
-import { FC } from "react"
-import Link from "next/link"
-import Image from "next/image"
-import FeaturedBlogs from "@/app/_components/featured-blogs"
-import { db } from "@/server/db"
+import { notFound } from "next/navigation";
+import { FC } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import FeaturedBlogs from "@/app/_components/featured-blogs";
+import { db } from "@/server/db";
 
-import { blogTable } from "@/server/db/schema"
-import { eq } from "drizzle-orm"
-import { slugify } from "@/lib/utils"
+import { blogTable } from "@/server/db/schema";
+import { eq } from "drizzle-orm";
+import { slugify } from "@/lib/utils";
+import { Metadata } from "next";
 
 interface pageProps {
-  params: { blogId: string }
+  params: { blogId: string };
 }
+
+export const metadata: Metadata = {
+  title: "Our Blogs | Cosmos Strategy",
+  description: "Our Blogs | Cosmos Strategy",
+};
 
 const page = async ({ params }: pageProps) => {
   const [post] = await db
     .select()
     .from(blogTable)
     .where(eq(blogTable.slug, params.blogId))
-    .limit(1)
+    .limit(1);
 
-  if (!post) notFound()
+  if (!post) notFound();
 
   return (
     <>
@@ -73,7 +79,7 @@ const page = async ({ params }: pageProps) => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;
