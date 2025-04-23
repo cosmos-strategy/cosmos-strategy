@@ -28,7 +28,7 @@ const Model = dynamic(() => import("@/app/_components/model"), {
 });
 
 const page: FC<pageProps> = ({}) => {
-  // console.log("dood")
+  // console.log("dood") hello
   return (
     <>
       <Model />
