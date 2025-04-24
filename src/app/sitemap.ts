@@ -17,7 +17,11 @@ async function fetchDynamicRoutes() {
   const peopleSlug = peopleData.map((item, i) => item.slug);
 
   // For demonstration, returning mock data
-  return { blogsSlug, workSlug, peopleSlug };
+  return {
+    blogsSlug: [...new Set(blogsSlug)],
+    workSlug: [...new Set(workSlug)],
+    peopleSlug: [...new Set(peopleSlug)],
+  };
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

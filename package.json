@@ -10,9 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postbuild": "next-sitemap",
-    "generate-sitemap": "next-sitemap"
+    "lint": "next lint"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.7.3",
