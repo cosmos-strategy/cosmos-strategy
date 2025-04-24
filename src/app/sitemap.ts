@@ -25,7 +25,7 @@ async function fetchDynamicRoutes() {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = env.NEXTAUTH_URL;
+  const baseUrl = env.NEXT_PUBLIC_APP_URL;
 
   // Your static routes
   const staticRoutes = [
