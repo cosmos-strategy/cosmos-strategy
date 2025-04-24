@@ -16,6 +16,21 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  async redirects() {
+    return [
+      {
+        source: "/(.*)",
+        has: [
+          {
+            type: "host",
+            value: "m.cosmostrategy.com",
+          },
+        ],
+        destination: "https://www.cosmostrategy.com/:1",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
