@@ -4,6 +4,8 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import localFont from "next/font/local";
 import { Toaster } from "@/app/_components/ui/toaster";
+import Script from "next/script";
+import Head from "next/head";
 
 const roboto = Roboto({
   variable: "--paragraph",
@@ -44,6 +46,20 @@ export default function RootLayout({
           "antialiased grainy font-sans min-h-screen w-screen relative overflow-x-hidden"
         )}
       >
+        <Head>
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-XZ6CQ9J0CJ"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XZ6CQ9J0CJ');
+          `}
+          </Script>
+        </Head>
         <Toaster />
         {children}
       </body>
