@@ -51,7 +51,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
                 <TabsTrigger
                   value={item.title}
                   key={index}
-                  className="flex flex-row items-center justify-start gap-6 py-0  w-full min-w-[280px]"
+                  className="flex flex-row items-center justify-start gap-6 py-0  w-full min-w-[280px] text-wrap md:text-nowrap"
                 >
                   <Image
                     alt="Our Trrain"

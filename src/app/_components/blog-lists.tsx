@@ -28,7 +28,7 @@ const BlogLists: FC<BlogListsProps> = ({ blogs }) => {
   if (blogs.length === 0) {
     return (
       <p className="text-white text-secondary_heading font-heading">
-        Blogs are coming soon
+        Coming soon
       </p>
     );
   }
