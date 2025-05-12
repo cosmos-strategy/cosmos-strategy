@@ -2,10 +2,12 @@ import { workSubType, workType } from "@/config/marketing";
 import { z } from "zod";
 
 export const userAuthSchema = z.object({
-  email: z.string().email(),
-  // .refine((val) => val === "venkatesh@firebrandlabs.in", {
-  //   message: "Please enter correct email",
-  // }),
+  email: z
+    .string()
+    .email()
+    .refine((val) => val === "cosmosstrategy01@gmail.com", {
+      message: "Please enter correct email",
+    }),
 });
 
 export type UserAuthSchema = z.infer<typeof userAuthSchema>;
