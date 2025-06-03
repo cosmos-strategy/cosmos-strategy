@@ -39,7 +39,7 @@ const Model: FC<ModelProps> = ({}) => {
   return (
     <main
       ref={sectionRef}
-      className="w-screen h-[100vh] relative overflow-hidden z-0 overflow-y-hidden"
+      className="w-screen h-[100vh] relative overflow-hidden z-0 overflow-y-hidden "
     >
       <Canvas
         gl={{ antialias: true }}
@@ -71,7 +71,7 @@ const Model: FC<ModelProps> = ({}) => {
       </Link>
       <section
         className={cn(
-          "flex items-center  justify-center flex-col absolute left-0 top-0  w-screen h-screen duration-500 transition-opacity overflow-hidden ",
+          "flex items-center  justify-center flex-col absolute left-0 top-0  w-screen h-screen duration-500 transition-opacity overflow-hidden xl:pt-52 2xl:pt-40",
           frameValue === 0 || frameValue < 0
             ? "opacity-1 translate-y-0 z-10"
             : "opacity-0 translate-y-10 z-[-1]"
@@ -86,7 +86,7 @@ const Model: FC<ModelProps> = ({}) => {
       </section>
       <section
         className={cn(
-          "flex items-center justify-center absolute  left-0 top-0 bg-transparent w-screen transition-all h-screen duration-500 overflow-hidden",
+          "flex items-center justify-center absolute  left-0 top-0 bg-transparent w-screen transition-all h-screen duration-500 overflow-hidden xl:pt-52 2xl:pt-40",
           frameValue > 0 && frameValue < 0.4
             ? "opacity-1 translate-y-0 z-10"
             : "opacity-0 translate-y-10 z-[-1]"
@@ -114,7 +114,7 @@ const Model: FC<ModelProps> = ({}) => {
       </section>
       <section
         className={cn(
-          "flex items-center  justify-start absolute left-0 top-0 w-screen h-screen duration-500 transition-all overflow-hidden",
+          "flex items-center  justify-start absolute left-0 top-0 w-screen h-screen duration-500 transition-all overflow-hidden xl:pt-52 2xl:pt-40",
           frameValue > 0.4 && frameValue < 0.85
             ? "opacity-1 translate-y-0 z-10"
             : "opacity-0 translate-y-10 z-[-1]"
@@ -149,7 +149,7 @@ const Model: FC<ModelProps> = ({}) => {
       </section>
       <section
         className={cn(
-          "flex items-center justify-start absolute left-0 top-0 w-screen h-screen duration-500 transition-all overflow-hidden",
+          "flex items-center justify-start absolute left-0 top-0 w-screen h-screen duration-500 transition-all overflow-hidden xl:pt-52 2xl:pt-40",
           frameValue > 0.9 && frameValue < 1
             ? "opacity-1 translate-y-0 z-10"
             : "opacity-0 translate-y-10 z-[-1]"
