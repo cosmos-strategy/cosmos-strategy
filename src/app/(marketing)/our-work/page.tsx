@@ -54,13 +54,13 @@ const page = async ({}: pageProps) => {
       <Suspense fallback={null}>
         <ScrollToHash />
       </Suspense>
-      <section className="w-screen flex items-center justify-center h-screen bg-background py-8 md:py-16">
+      <section className="w-screen flex items-center justify-center h-screen bg-background py-8 xl:pt-60 2xl:pt-56 md:py-16">
         <div className="container flex items-center justify-center flex-col">
-          <h2 className="flex items-center justify-center flex-col">
-            <span className="text-extra_paragraph_heading text-foreground font-heading text-center">
+          <h2 className="flex items-center text-center justify-center flex-col w-full leading-[1.1]">
+            <span className="text-extra_paragraph_heading text-foreground font-heading text-left">
               Our
             </span>
-            <span className="text-primary-foreground text-secondary_heading font-heading font-normal">
+            <span className="text-primary-foreground mb-4 text-secondary_heading font-heading font-bold">
               Work
             </span>
           </h2>

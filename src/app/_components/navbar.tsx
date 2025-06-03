@@ -44,7 +44,7 @@ const Navbar: FC<NavbarProps> = ({ items, children }) => {
           <div className="flex items-center justify-start md:justify-center gap-2 py-4">
             <Link
               href="/"
-              className="inline-flex z-40 font-semibold items-center justify-start md:justify-center flex-nowrap gap-2 min-w-[200px]"
+              className="inline-flex z-40  font-semibold items-center justify-start md:justify-center flex-nowrap gap-2 min-w-[100px] md:min-w-[200px]"
             >
               <Image
                 height={100}

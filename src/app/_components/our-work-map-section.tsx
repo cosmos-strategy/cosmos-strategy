@@ -24,13 +24,10 @@ export const chooseColor = function () {
 
 const OurWorkMapSection: FC<OurWorkMapSectionProps> = () => {
   return (
-    <section className="flex flex-col gap-32 items-center justify-start w-screen  min-h-screen pt-40 md:py-16  md:max-h-fit  bg-repeat-x  animate-scroll-x overflow-hidden bg-fixed relative ">
+    <section className="flex flex-col gap-32 items-center justify-start w-screen  min-h-screen pt-40 md:py-16  md:max-h-fit xl:pt-48 2xl:pt-40 bg-repeat-x  animate-scroll-x overflow-hidden bg-fixed relative ">
       <InfiniteMap className="fixed top-0  w-screen h-screen z-0 " />
       <div className="flex flex-col items-center justify-start w-screen z-10 py-16">
-        <div
-          className="container flex flex-col  overflow-x-hidden mb-12 w-screen z-10 "
-          id="our-client-domains"
-        >
+        <div className="container flex flex-col  overflow-x-hidden mb-12 w-screen z-10 ">
           <h2 className="flex items-center justify-center flex-col leading-[1]">
             <span className="text-extra_paragraph_heading text-foreground font-heading text-center">
               Our
@@ -51,6 +48,7 @@ const OurWorkMapSection: FC<OurWorkMapSectionProps> = () => {
           </ul>
         </div>
         <InfiniteMapWithImageInput
+          id="our-client-domains"
           src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rV4lLuKq58tCRcZbLox5S9hfdI037uwUEjeQWF"
           className="md:w-screen"
         />

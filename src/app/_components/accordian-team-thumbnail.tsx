@@ -26,12 +26,7 @@ const AccordianTeamThumbnail: FC<AccordianTeamThumbnailProps> = ({ data }) => {
       className="bg-black text-white text-center py-12 w-screen"
     >
       <div className="container">
-        <Accordion
-          type="single"
-          collapsible
-          className="w-full"
-          defaultValue="item-1"
-        >
+        <Accordion type="multiple" className="w-full">
           <AccordionItem value="item-1">
             <AccordionTrigger className="text-foreground [&>svg]:w-14 [&>svg]:h-14 md:[&>svg]:w-28 md:[&>svg]:h-28 [&>svg]:stroke-1">
               <h3 className="text-secondary_heading text-primary-foreground font-heading font-semibold w-full text-left leading-[0.9]">

@@ -39,7 +39,7 @@ const page = async ({ params, searchParams }: pageProps) => {
         <div className="container flex items-start justify-center flex-col">
           <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-8 md:gap-0">
             <div className="flex items-start flex-col justify-center gap-4">
-              <h2 className="font-heading text-secondary_heading text-secondary-foreground leading-tight md:leading-[55px]">
+              <h2 className="font-heading text-secondary_heading text-secondary-foreground leading-[1] md:leading-[55px]">
                 Some questions we have enjoyed answering
               </h2>
             </div>

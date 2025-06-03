@@ -6,7 +6,8 @@ export function ScrollToHash() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [hash, setHash] = useState("");
-  const OFFSET = 100; // Offset in pixels
+  const [offSet, setOffset] = useState(60); // Default offset in pixels
+  const OFFSET = 90; // Offset in pixels
 
   // Function to handle the scrolling with offset
   const scrollToHashWithOffset = (hashValue: string) => {

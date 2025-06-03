@@ -158,7 +158,7 @@ const DotAnimation: FC<DotAnimationProps> = () => {
   }, []);
 
   return (
-    <div className="w-full flex md:max-w-4xl h-[500px] md:h-[800px] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] overflow-hidden absolute z-[1] ">
+    <div className="w-full flex md:max-w-4xl h-[500px] 2xl:h-[800px] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] overflow-hidden absolute z-[1]">
       <svg className="w-full h-full">
         {connectionsRef.current.map((connection, index) => {
           const fromDot = dotsRef.current.find(

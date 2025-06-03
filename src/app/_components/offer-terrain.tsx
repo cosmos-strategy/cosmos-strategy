@@ -70,7 +70,7 @@ const offerterrain = () => {
   return (
     <section
       id="our-terrain"
-      className="bg-background text-white py-16 md:py-24  flex items-center justify-center overflow-hidden"
+      className="bg-background text-white py-2 md:py-24  flex items-center justify-center overflow-hidden"
     >
       <div className="container  flex flex-col md:flex-row items-center justify-center ">
         <div className="flex flex-col md:flex-row  items-center justify-center bg-background text-white w-full">

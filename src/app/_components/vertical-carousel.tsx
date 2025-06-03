@@ -29,7 +29,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
   return (
     <section
       id="our-differentiators"
-      className="w-screen flex md:min-h-screen items-start relative justify-start bg-background py-16 md:py-16 flex-col"
+      className="w-screen hidden md:flex md:min-h-screen items-start relative justify-start bg-background py-16 md:py-16 flex-col"
     >
       <div className="container">
         <h2 className="flex self-start items-start justify-start flex-col leading-[1.1] mb-8 left-0 top-[125px]">
@@ -99,7 +99,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
                         </div>
                         <Image
                           alt="Our Trrain"
-                          className="w-full md:w-1/4"
+                          className="w-1/2 md:w-1/4"
                           src="https://utfs.io/f/ZowmNmBHF7rVHVpLcCdWuQopKOivRcLqJD7x46CXtZGlw0Sh"
                           width={300}
                           height={300}
@@ -196,7 +196,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
                     {insightCenteredContent.map((item, i) => (
                       <Button
                         style={{ backgroundColor: `${colors[i]}` }}
-                        className="rounded-xl min-w-9 md:min-w-72 font-paragraph static z-[1] h-7"
+                        className="rounded-xl  md:min-w-72 font-paragraph static z-[1] h-7"
                         size={"lg"}
                         variant={"default"}
                       >
@@ -204,7 +204,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
                       </Button>
                     ))}
                     <Image
-                      className="w-full object-contain z-0 h-full absolute left-0 top-0 md:translate-y-6"
+                      className="w-full object-contain z-0 h-full absolute left-0 top-0  md:translate-y-6 "
                       src={
                         "https://utfs.io/f/ZowmNmBHF7rVi72fZMu12L9SrhBkonyJq4Z8l0ANjKH7a5eu"
                       }
@@ -229,7 +229,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
               </p>
               <Image
                 alt="Our Trrain"
-                className="w-[280px] mt-6"
+                className="w-1/2 md:w-[280px] mt-6"
                 src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rV4j0m9M58tCRcZbLox5S9hfdI037uwUEjeQWF"
                 width={300}
                 height={300}
@@ -251,7 +251,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
               </h4>
               <Image
                 alt="Our Trrain"
-                className="w-[280px] mt-6"
+                className="w-1/2 md:w-[280px] mt-6"
                 src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rVzMSnmIFNlZ1PCvG0BIV6jrxgaOSWF5w3QdTL"
                 width={300}
                 height={300}
@@ -272,7 +272,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
               </h4>
               <Image
                 alt="Our Trrain"
-                className="w-[280px] mt-6"
+                className="w-1/2 md:w-[280px] mt-6"
                 src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rV4W9wl258tCRcZbLox5S9hfdI037uwUEjeQWF"
                 width={300}
                 height={300}
@@ -316,7 +316,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
               </h4>
               <Image
                 alt="Our Trrain"
-                className="w-[280px] mt-6"
+                className="w-1/2 md:w-[280px] mt-6"
                 src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rV2IioqKZO6bH9JTFpDjWtfnc42Y073CdaRmov"
                 width={300}
                 height={300}

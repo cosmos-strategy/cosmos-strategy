@@ -60,7 +60,9 @@ const MasThead: FC<MasTheadProps> = () => {
 
   return (
     <div
-      className={cn("w-full relative py-2 hidden xl:flex")}
+      className={cn(
+        "w-full relative py-2 flex border-l border-l-foreground md:border-0"
+      )}
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
@@ -76,7 +78,7 @@ const MasThead: FC<MasTheadProps> = () => {
           >
             <p
               className={cn(
-                "ms-4 flex font-paragraph text-left  min-w-[210px] text-[20px] md:text-[23px]",
+                "ms-4 flex font-paragraph text-left md:min-w-[210px] text-[16px] md:text-[23px]",
                 `${
                   currentIndex > 3
                     ? "text-secondary-foreground"

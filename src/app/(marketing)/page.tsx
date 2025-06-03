@@ -1,24 +1,14 @@
 "use client";
 
-import { Button, buttonVariants } from "@/app/_components/button";
-import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/app/_components/button";
+import InfiniteMap from "@/app/_components/infinite-map";
 import { ScrollToHash } from "@/app/_components/scroll-to-hash";
-import { Canvas } from "@react-three/fiber";
+import { clientDomains, ourDifferentiatorContent } from "@/config/marketing";
+import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import { FC, Suspense } from "react";
-import {
-  functionalSpiralContent,
-  domainsData,
-  differentiatorData,
-  ourDifferentiatorContent,
-} from "@/config/marketing";
-import InfiniteMap from "@/app/_components/infinite-map";
-import { clientDomains } from "@/config/marketing";
-import { clientData } from "@/config/marketing";
-import { chooseColor } from "@/app/_components/our-work-map-section";
-import InfiniteMapWithImageInput from "@/app/_components/infinite-map-with-image-input";
 
 interface pageProps {}
 

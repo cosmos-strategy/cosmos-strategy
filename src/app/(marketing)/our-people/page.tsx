@@ -28,7 +28,7 @@ const page = async ({}: pageProps) => {
       <Suspense fallback={null}>
         <ScrollToHash />
       </Suspense>
-      <section className="bg-background text-foreground text-center py-16 md:pb-16 min-h-screen flex items-center justify-center">
+      <section className="bg-background text-foreground text-center py-16 md:pb-16 xl:pt-60 2xl:pt-56 min-h-screen flex items-center justify-center">
         <div className="container flex flex-col items-center justify-center gap-4 ">
           {/* OUR text */}
           <h2 className="flex items-center justify-start flex-col leading-[1.1]">

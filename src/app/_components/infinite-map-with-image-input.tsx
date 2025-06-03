@@ -29,14 +29,17 @@ const colors = [
 interface InfiniteMapWithImageInputProps {
   className?: string;
   src: string;
+  id?: string;
 }
 
 const InfiniteMapWithImageInput: FC<InfiniteMapWithImageInputProps> = ({
   className,
   src,
+  ...props
 }) => {
   return (
     <Carousel
+      {...props}
       opts={{
         align: "start",
         loop: true,

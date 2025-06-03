@@ -13,6 +13,7 @@ import { ScrollToHash } from "@/app/_components/scroll-to-hash";
 import VerticalCarousel from "@/app/_components/vertical-carousel";
 import OurSolutionLevelsNew from "@/app/_components/our-solution-levels-new";
 import { Suspense } from "react";
+import VerticalCarouselMobile from "@/app/_components/vertical-carousel-mobile";
 
 export default function OurOfferPage() {
   return (
@@ -22,7 +23,7 @@ export default function OurOfferPage() {
       </Suspense>
       <section
         id="our-value-for-you"
-        className="min-h-[500px] md:min-h-[80vh]  flex items-center justify-center py-16 md:pt-40 md:py-28"
+        className="min-h-[500px] md:min-h-[80vh]  flex items-center justify-center py-16 md:pt-40 xl:pt-56 2xl:pt-40 md:py-28"
       >
         <div className="container">
           <div className="flex transform md:translate-y-5 mb-6 md:mb-24">
@@ -125,6 +126,7 @@ export default function OurOfferPage() {
         </div>
       </div>
       <VerticalCarousel />
+      <VerticalCarouselMobile />
       <OfferTerrain />
       <OurPractices />
       {/* <StickySlider /> */}

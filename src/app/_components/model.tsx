@@ -86,13 +86,13 @@ const Model: FC<ModelProps> = ({}) => {
       </section>
       <section
         className={cn(
-          "flex items-center justify-start absolute  left-0 top-0 bg-transparent w-screen transition-all h-screen duration-500 overflow-hidden",
+          "flex items-center justify-center absolute  left-0 top-0 bg-transparent w-screen transition-all h-screen duration-500 overflow-hidden",
           frameValue > 0 && frameValue < 0.4
             ? "opacity-1 translate-y-0 z-10"
             : "opacity-0 translate-y-10 z-[-1]"
         )}
       >
-        <div className="container w-full h-full flex flex-col items-center justify-center gap-48">
+        <div className="container w-full md:h-[60vh] 2xl:h-full flex flex-col items-center justify-center gap-16 2xl:gap-48">
           <div className="self-start">
             <span className="text-foreground text-center text-6xl font-heading text-our_text_heading">
               Who use
@@ -120,7 +120,7 @@ const Model: FC<ModelProps> = ({}) => {
             : "opacity-0 translate-y-10 z-[-1]"
         )}
       >
-        <div className="container w-full h-full flex flex-col items-center justify-center gap-48">
+        <div className="container w-full md:h-[60vh] 2xl:h-full flex flex-col items-center justify-center gap-16 2xl:gap-48">
           <div className="self-start">
             <span className="text-foreground text-center text-6xl font-paragraph text-extra_paragraph_heading leading-tight">
               We unlock <br />
@@ -155,7 +155,7 @@ const Model: FC<ModelProps> = ({}) => {
             : "opacity-0 translate-y-10 z-[-1]"
         )}
       >
-        <div className="container w-full h-full flex flex-col items-center justify-center leading-[0.9]">
+        <div className="container w-full md:h-[60vh] 2xl:h-full flex flex-col items-center justify-center gap-16 2xl:gap-48">
           <h2 className="flex items-center justify-center flex-col leading-[1] mb-4">
             <span className="text-extra_paragraph_heading text-foreground font-heading text-center">
               Our

@@ -26,7 +26,7 @@ const page = async ({}: pageProps) => {
   return (
     <>
       {/* Hero section */}
-      <section className="w-screen flex items-center justify-center h-screen bg-background py-16  ">
+      <section className="w-screen flex items-center justify-center min-h-screen bg-background py-16 xl:pt-80 2xl:pt-56">
         <div className="container flex items-center justify-center relative">
           <h2 className="flex items-center justify-center flex-col">
             <span className="text-extra_paragraph_heading text-foreground font-heading text-center">
@@ -36,7 +36,7 @@ const page = async ({}: pageProps) => {
               Views
             </span>
           </h2>
-          <OrbitSymbol size={400} strokeWidth={0.2} />
+          <OrbitSymbol size={200} strokeWidth={0.2} />
         </div>
       </section>
 
