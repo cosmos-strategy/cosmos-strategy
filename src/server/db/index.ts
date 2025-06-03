@@ -17,7 +17,7 @@ const connectionConfig: postgres.Options<{}> = {
   max: env.NODE_ENV === "production" ? 1 : 10, // Limit connections in production (serverless)
   idle_timeout: 20, // Close idle connections after 20 seconds
   max_lifetime: 60 * 30, // Close connections after 30 minutes
-  connect_timeout: 10, // Connection timeout in seconds
+  connect_timeout: 30, // Connection timeout in seconds
 
   // Performance optimizations
   prepare: false, // Disable prepared statements for serverless
@@ -26,8 +26,8 @@ const connectionConfig: postgres.Options<{}> = {
   // Error handling
   onnotice: env.NODE_ENV !== "production" ? console.log : () => {}, // Log notices in development only
 
-  // SSL configuration (adjust based on your database provider)
-  ssl: env.NODE_ENV === "production" ? "require" : false,
+  // // SSL configuration (adjust based on your database provider)
+  // ssl: env.NODE_ENV === "production" ? "require" : false,
 
   // Additional serverless optimizations
   fetch_types: false, // Skip fetching types for faster cold starts
