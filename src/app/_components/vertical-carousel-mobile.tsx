@@ -33,7 +33,7 @@ const VerticalCarouselMobile: FC<VerticalCarouselMobileProps> = () => {
             Differentiators
           </span>
         </h2>
-        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4">
+        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4 w-full">
           <h2 className="flex text-foreground text-tertiary_heading self-start items-start justify-start flex-col leading-normal mb-4">
             Insights centered
           </h2>
@@ -148,7 +148,7 @@ const VerticalCarouselMobile: FC<VerticalCarouselMobileProps> = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4">
+        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4 w-full">
           <h2 className="flex text-foreground text-tertiary_heading self-start items-start justify-start flex-col mb-4 leading-normal ">
             Insights → Hero Actions → P&Ls
           </h2>
@@ -182,7 +182,7 @@ const VerticalCarouselMobile: FC<VerticalCarouselMobileProps> = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4">
+        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4 w-full">
           <h2 className="flex text-foreground text-tertiary_heading self-start items-start justify-start flex-col mb-4 leading-normal ">
             360 degree co-creation
           </h2>
@@ -205,7 +205,7 @@ const VerticalCarouselMobile: FC<VerticalCarouselMobileProps> = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4">
+        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4 w-full">
           <h2 className="flex text-foreground text-tertiary_heading self-start items-start justify-start flex-col mb-4 leading-normal ">
             Only senior consultants
           </h2>
@@ -221,13 +221,13 @@ const VerticalCarouselMobile: FC<VerticalCarouselMobileProps> = () => {
             <Image
               alt="Our Trrain"
               className="w-1/2 md:w-[280px] mt-6"
-              src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rVzMSnmIFNlZ1PCvG0BIV6jrxgaOSWF5w3QdTL"
+              src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rVRfWxEAy3gtZBquPl7NxMiLpXGhQTs0e56Ujf"
               width={300}
               height={300}
             />
           </div>
         </div>
-        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4">
+        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4 w-full">
           <h2 className="flex text-foreground text-tertiary_heading self-start items-start justify-start flex-col mb-4 leading-normal ">
             500+ years, 70% practitioners
           </h2>
@@ -250,7 +250,7 @@ const VerticalCarouselMobile: FC<VerticalCarouselMobileProps> = () => {
             />
           </div>
         </div>
-        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4">
+        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4 w-full">
           <h2 className="flex text-foreground text-tertiary_heading self-start items-start justify-start flex-col mb-4 leading-normal ">
             Tremendous diversity
           </h2>
@@ -275,7 +275,7 @@ const VerticalCarouselMobile: FC<VerticalCarouselMobileProps> = () => {
           </div>
         </div>
 
-        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4">
+        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4 w-full">
           <h2 className="flex text-foreground text-tertiary_heading self-start items-start justify-start flex-col mb-4 leading-normal ">
             Handholding till execution & success
           </h2>
@@ -298,7 +298,7 @@ const VerticalCarouselMobile: FC<VerticalCarouselMobileProps> = () => {
           </div>
         </div>
 
-        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4">
+        <div className="flex items-start justify-start flex-col relative border-b border-b-foreground/20 pb-4 w-full">
           <h2 className="flex text-foreground text-tertiary_heading self-start items-start justify-start flex-col mb-4 leading-normal ">
             Customised approach & remuneration
           </h2>

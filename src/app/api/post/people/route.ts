@@ -60,3 +60,22 @@ export async function POST(req: NextRequest, res: NextResponse) {
     );
   }
 }
+
+export async function GET(req: NextRequest, res: NextResponse) {
+  try {
+    const data = await db.select().from(peopleTable);
+
+    return NextResponse.json({
+      data: data,
+      message: "People data retrieved successfully",
+      status: 200,
+    });
+  } catch (err) {
+    return NextResponse.json(
+      {
+        message: "An unexpected error occurred",
+      },
+      { status: 500 }
+    );
+  }
+}

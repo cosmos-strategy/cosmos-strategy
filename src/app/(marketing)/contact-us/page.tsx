@@ -20,7 +20,7 @@ const page: FC<pageProps> = ({}) => {
   return (
     <>
       {/* {Form Section} */}
-      <section className="w-screen flex items-center justify-center bg-background py-16 md:pt-44 md:pb-16">
+      <section className="w-screen flex items-center justify-center bg-background py-16 pt-44 xl:pt-56  md:pb-16">
         <div className="container flex items-start justify-center flex-col">
           <h2 className="flex items-start justify-start flex-col leading-[1.1]">
             <span className="text-extra_paragraph_heading text-foreground font-heading text-center">

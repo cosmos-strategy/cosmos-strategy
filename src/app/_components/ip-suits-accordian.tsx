@@ -54,11 +54,10 @@ const IpSuitsAccordian: FC<IpSuitsAccordianProps> = () => {
         </h4>
       </div>
       <Accordion
-        type="single"
-        collapsible
+        type="multiple"
         className="w-full"
-        value={open}
-        onValueChange={setOpen}
+        // value={open}
+        // onValueChange={setOpen}
       >
         <AccordionItem value="item-1" className="">
           <CustomTrigger

@@ -1,10 +1,13 @@
 import Image from "next/image";
-import { FC } from "react";
+
 import { db } from "@/server/db";
 import { peopleTable } from "@/server/db/schema";
 import { notFound } from "next/navigation";
 import { eq } from "drizzle-orm";
 import CountryFlags from "@/app/_components/country-flags";
+import { InferModel } from "drizzle-orm";
+
+type People = InferModel<typeof peopleTable>;
 
 interface PageProps {
   params: { peopleId: string };
@@ -25,8 +28,6 @@ const page = async ({ params }: PageProps) => {
     .where(eq(peopleTable.slug, params.peopleId))
     .limit(1);
 
-  // Display message if member not found
-  console.log(member);
   if (!member) notFound();
 
   return (

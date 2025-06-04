@@ -23,10 +23,10 @@ export default function OurOfferPage() {
       </Suspense>
       <section
         id="our-value-for-you"
-        className="min-h-[500px] md:min-h-[80vh]  flex items-center justify-center py-16 md:pt-40 xl:pt-56 2xl:pt-52 md:py-28"
+        className="min-h-[500px] md:min-h-[80vh]  flex items-center justify-center pb-16 pt-56 2xl:pt-52 "
       >
         <div className="container">
-          <div className="flex transform md:translate-y-5 mb-6 md:mb-24">
+          <div className="flex  mb-6 md:mb-24">
             <h2 className="flex items-center text-center justify-center flex-col w-full leading-[1.1]">
               <span className="text-extra_paragraph_heading text-foreground font-heading text-left">
                 Our

@@ -252,7 +252,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
               <Image
                 alt="Our Trrain"
                 className="w-1/2 md:w-[280px] mt-6"
-                src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rVzMSnmIFNlZ1PCvG0BIV6jrxgaOSWF5w3QdTL"
+                src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rVRfWxEAy3gtZBquPl7NxMiLpXGhQTs0e56Ujf"
                 width={300}
                 height={300}
               />

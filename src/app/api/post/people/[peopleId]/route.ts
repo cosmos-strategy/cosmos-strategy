@@ -36,3 +36,25 @@ export async function PATCH(req: NextRequest, context: routerContextSchema) {
     return new NextResponse("Something went wrong", { status: 500 });
   }
 }
+
+export async function GET(req: NextRequest, context: routerContextSchema) {
+  try {
+    const { params } = routerContext.parse(context);
+
+    const people = await db
+      .select()
+      .from(peopleTable)
+      .where(eq(peopleTable.id, Number(params.peopleId)));
+
+    console.log(people);
+
+    if (people.length === 0) {
+      return new NextResponse("Person not found", { status: 404 });
+    }
+
+    return new NextResponse(JSON.stringify(people[0]), { status: 200 });
+  } catch (err) {
+    console.error(err);
+    return new NextResponse("Something went wrong", { status: 500 });
+  }
+}

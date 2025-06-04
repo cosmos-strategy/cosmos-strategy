@@ -155,7 +155,7 @@ const Model: FC<ModelProps> = ({}) => {
             : "opacity-0 translate-y-10 z-[-1]"
         )}
       >
-        <div className="container w-full md:h-[60vh] 2xl:h-full flex flex-col items-center justify-center gap-16 2xl:gap-48">
+        <div className="container w-full md:h-[60vh] 2xl:h-full flex flex-col items-center justify-center gap-16 2xl:gap-12">
           <h2 className="flex items-center justify-center flex-col leading-[1] mb-4">
             <span className="text-extra_paragraph_heading text-foreground font-heading text-center">
               Our

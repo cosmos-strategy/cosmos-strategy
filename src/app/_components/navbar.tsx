@@ -19,6 +19,7 @@ import MobileNav from "@/app/_components/mobile-nav";
 import { useSelectedLayoutSegment } from "next/navigation";
 import { ourSnapshotContent } from "@/config/marketing";
 import MasThead from "./masthead";
+import MobileNavDuplicate from "./mobile-nav-duplicate";
 
 interface NavbarProps {
   items: MainNavItems;
@@ -171,12 +172,12 @@ const Navbar: FC<NavbarProps> = ({ items, children }) => {
           <span className="font-bold hidden">Menu</span>
         </button>
         {showMobileMenu && items && (
-          <MobileNav
+          <MobileNavDuplicate
             removeHandler={() => setShowMobileMenu(!showMobileMenu)}
             items={items}
           >
             {children}
-          </MobileNav>
+          </MobileNavDuplicate>
         )}
       </header>
     </>
