@@ -23,7 +23,7 @@ export default function OurOfferPage() {
       </Suspense>
       <section
         id="our-value-for-you"
-        className="min-h-[500px] md:min-h-[80vh]  flex items-center justify-center py-16 md:pt-40 xl:pt-56 2xl:pt-40 md:py-28"
+        className="min-h-[500px] md:min-h-[80vh]  flex items-center justify-center py-16 md:pt-40 xl:pt-56 2xl:pt-52 md:py-28"
       >
         <div className="container">
           <div className="flex transform md:translate-y-5 mb-6 md:mb-24">
@@ -73,7 +73,7 @@ export default function OurOfferPage() {
       </section>
       <div
         id="our-offer"
-        className="relative min-h-[80vh] md:min-h-[100vh] bg-background flex items-center w-screen overflow-x-hidden md:overflow-visible justify-center p-4 md:py-40"
+        className="relative min-h-[80vh] md:min-h-[100vh] bg-background flex items-center w-screen overflow-x-hidden md:overflow-visible justify-center p-4 md:py-64"
       >
         <div className="relative bottom-[50px] w-[80vw] max-w-[600px] h-[80vw]  max-h-[600px] flex items-center justify-center">
           {/* Static Circle */}

@@ -52,3 +52,16 @@ export async function POST(req: NextRequest, res: NextResponse) {
     );
   }
 }
+
+// export async function GET(req: NextRequest, res: NextResponse) {
+//   try {
+//     const data = await db.select().from(workTable);
+//     return NextResponse.json({
+//       data: data,
+//       message: "Work fetched Successfully",
+//       status: 200,
+//     });
+//   } catch (err) {
+//     return Response.json({ error: "Failed to fetch blogs" }, { status: 500 });
+//   }
+// }

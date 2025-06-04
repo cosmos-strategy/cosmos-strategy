@@ -17,7 +17,7 @@ const connectionConfig: postgres.Options<{}> = {
   max: env.NODE_ENV === "production" ? 1 : 10, // Limit connections in production (serverless)
   idle_timeout: 20, // Close idle connections after 20 seconds
   max_lifetime: 60 * 30, // Close connections after 30 minutes
-  connect_timeout: 30, // Connection timeout in seconds
+  connect_timeout: 10, // Connection timeout in seconds
 
   // Performance optimizations
   prepare: false, // Disable prepared statements for serverless
