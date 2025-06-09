@@ -77,7 +77,7 @@ const IpSuitsAccordian: FC<IpSuitsAccordianProps> = () => {
             </div>
           </CustomTrigger>
 
-          <AccordionContent className="border-b border-foreground/40 py-8 px-4 md:px-8 ">
+          <AccordionContent className="border-b border-foreground/40 py-8 px-4 md:px-8 overflow-x-scroll md:overflow-x-auto">
             {" "}
             {/*/*hell*/}
             <div className="w-full flex flex-col items-start gap-4">
@@ -85,7 +85,7 @@ const IpSuitsAccordian: FC<IpSuitsAccordianProps> = () => {
                 To Uncover Blazing Insights
               </p>
               {/* Title Bar */}
-              <div className="w-full grid grid-cols-2 md:grid-cols-3 bg-secondary-foreground py-3 px-2 items-center ">
+              <div className="w-full grid grid-cols-3 md:grid-cols-3 bg-secondary-foreground py-3 px-2 items-center ">
                 <h4 className="text-extra_paragraph_heading text-primary-foreground py-2 font-paragraph text-left">
                   IP Brand
                 </h4>

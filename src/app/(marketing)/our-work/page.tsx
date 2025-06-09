@@ -12,7 +12,7 @@ import { db } from "@/server/db";
 import { workTable } from "@/server/db/schema";
 import InfiniteMap from "@/app/_components/infinite-map";
 import Image from "next/image";
-import IpSuitsAccordian from "@/app/_components/ip-suits-accordian";
+import IpSuitsAccordian from "@/app/_components/ip-suits-accordian-copy";
 import OurWorkMapSection from "@/app/_components/our-work-map-section";
 import { ScrollToHash } from "@/app/_components/scroll-to-hash";
 import { Metadata } from "next";

@@ -816,3 +816,273 @@ export const ourDomainSpiral = [
 
   "Design",
 ];
+export const BlzData = [
+  { ipBrand: "B3BC-Flows", scope: "B3BC-Flows.Blz", moniker: "4Win.Brnd" },
+  {
+    ipBrand: "I-Spiral",
+    scope: "I-Spiral.Mkt.360Sight.Blz",
+    moniker: "4Win.Brnd",
+  },
+  {
+    ipBrand: "I-Spiral-Xct",
+    scope: "I-Spiral-BD.Mkt.360Sight.Blz",
+    moniker: "4Win.Brnd",
+  },
+  {
+    ipBrand: "D-Spiral",
+    scope: "D-Spiral.Mkt.360Sight.Blz",
+    moniker: "4Win.Brnd",
+  },
+  {
+    ipBrand: "OrgAware",
+    scope: "OrgAware.Ntrprys.360Sight.Blz",
+    moniker: "4Win.Brnd",
+  },
+  {
+    ipBrand: "PassionDiamond",
+    scope: "PassionDiamond.Mpth.Blz",
+    moniker: "4Win.Brnd",
+  },
+  { ipBrand: "Sublime", scope: "Sublime.Mpth.Blz", moniker: "4Win.Brnd" },
+  { ipBrand: "GrwthPyrmd", scope: "GrwthPyrmd.Blz", moniker: "4Win.Brnd" },
+  { ipBrand: "Induct", scope: "Induct.Blz", moniker: "4Win.Brnd" },
+  {
+    ipBrand: "Insight-Matrix",
+    scope: "Insight-Matrix.Blz",
+    moniker: "4Win.Brnd",
+  },
+];
+
+export const BrndData = [
+  {
+    ipBrand: "4Win",
+    scope: "Cust, Consumer, Brand, Shopper Propositions",
+    moniker: "4Win.Brnd",
+  },
+  {
+    ipBrand: "Bortals",
+    scope: "Brand Portfolio Strategy",
+    moniker: "Bortals.Brnd",
+  },
+  {
+    ipBrand: "Brandricity.Ntrprys",
+    scope: "Brand Centric Organisations",
+    moniker: "Brandricity.Ntrprys.Brnd",
+  },
+  {
+    ipBrand: "Brandricity.Role",
+    scope: "Roles of Brand in Organisations",
+    moniker: "Brandricity.Role.Brnd",
+  },
+  { ipBrand: "Brnd.Def", scope: "Brand Definition", moniker: "Brnd.Def" },
+  {
+    ipBrand: "BrnDeus",
+    scope: "Brand Definition Framework",
+    moniker: "BrnDeus.Def.Brnd",
+  },
+  { ipBrand: "Brnd.Prtrt", scope: "Brand Portrait", moniker: "Brnd.Def.Prtrt" },
+  {
+    ipBrand: "Brnd.Stroice",
+    scope: "Brand Strategy Definition",
+    moniker: "Brnd.Stroice.Def",
+  },
+  {
+    ipBrand: "Brnd.Ntrprys.Stroice",
+    scope: "Brand: Business Strategy Definition",
+    moniker: "Brnd.Ntrprys.Stroice.Def",
+  },
+  {
+    ipBrand: "BrndFth",
+    scope: "Brand Valuation Model",
+    moniker: "BrndFth.Brnd",
+  },
+  {
+    ipBrand: "Xtent",
+    scope: "Brand Value Quantum",
+    moniker: "BrndFth.Xtent.Brnd",
+  },
+  {
+    ipBrand: "Xtensity",
+    scope: "Brand Value Intensity",
+    moniker: "BrndFth.Xtensity.Brnd",
+  },
+  {
+    ipBrand: "BrnDzine",
+    scope: "Brand Design & Expression",
+    moniker: "BrnDzine.Brnd",
+  },
+  {
+    ipBrand: "SnSMprnt",
+    scope: "Sensorial Imprint of Brand",
+    moniker: "SnSMprnt.BrnDzine.Brnd",
+  },
+  {
+    ipBrand: "Frnchys",
+    scope: "Brand Franchise Management",
+    moniker: "Frnchys.Brnd",
+  },
+  {
+    ipBrand: "ReMkt",
+    scope: "Restructuring markets using Brand",
+    moniker: "ReMkt.Brnd",
+  },
+];
+
+export const StroiceData = [
+  {
+    ipBrand: "Bizcope",
+    scope: "Operating scope of Biz",
+    moniker: "Bizcope.Stroice",
+  },
+  {
+    ipBrand: "Stroice.Def",
+    scope: "Strategy Definition",
+    moniker: "Stroice.Def",
+  },
+  {
+    ipBrand: "OpCap-Diads",
+    scope: "Opportunity – Capability Diads",
+    moniker: "OpCap-Diads.Stroice",
+  },
+  {
+    ipBrand: "Prps.Ntrprys",
+    scope: "Enterprise Purpose Statement & Charter",
+    moniker: "Prps.Ntrprys.Stroice",
+  },
+  {
+    ipBrand: "Prps.Ntrprys.Charter",
+    scope: "Enterprise Purpose Statement & Charter",
+    moniker: "Prps.Ntrprys.Charter.Stroice",
+  },
+  {
+    ipBrand: "Plybk",
+    scope: "Enterprise Expansion Playbook",
+    moniker: "Plybk.Prps.Ntrprys.Stroice",
+  },
+  {
+    ipBrand: "Straxcellence",
+    scope: "Levers of Strategic Excellence",
+    moniker: "Straxcellence.Stroice",
+  },
+];
+
+export const XctData = [
+  {
+    ipBrand: "ProDact",
+    scope: "Professional Demand Activation",
+    moniker: "ProDact.Xct",
+  },
+  {
+    ipBrand: "SHoM",
+    scope: "Stakeholder Management",
+    moniker: "SHoM.ProDact.Xct",
+  },
+  { ipBrand: "OYC", scope: "Own Your Customer", moniker: "OYC.ProDact.Xct" },
+  {
+    ipBrand: "KCM",
+    scope: "Key Customer Management",
+    moniker: "KCM.ProDact.Xct",
+  },
+  {
+    ipBrand: "MaVTree",
+    scope: "Market Value Tree",
+    moniker: "MaVTree.ProDact.Xct",
+  },
+  {
+    ipBrand: "CustEF",
+    scope: "Customer Engagement Funnel",
+    moniker: "CustEF.ProDact.Xct",
+  },
+  {
+    ipBrand: "Aufr",
+    scope: "Product, Service, Relationship Offer",
+    moniker: "Aufr.ProDact.Xct",
+  },
+  {
+    ipBrand: "Dist-Evolve",
+    scope: "Distributor Evolution",
+    moniker: "Dist-Evolve.Xct",
+  },
+  {
+    ipBrand: "SalesCentricity",
+    scope: "Sales Centric Organisations",
+    moniker: "SalesCentricity.Xct",
+  },
+  {
+    ipBrand: "SalesCentricity.PeopleRoles",
+    scope: "Sales People Roles",
+    moniker: "SalesCentricity.PeopleRoles.Xct",
+  },
+];
+
+export const NuFormData = [
+  {
+    ipBrand: "NuForm.Process",
+    scope: "Insights to Actions Transformation Process",
+    moniker: "NuForm.Process",
+  },
+  {
+    ipBrand: "NuForm.Program",
+    scope: "Transformation Program Mgmt",
+    moniker: "NuForm.Program",
+  },
+  { ipBrand: "HiroZ", scope: "Hero Actions", moniker: "HiroZ.NuForm" },
+  { ipBrand: "XtarZ", scope: "Star Shifts", moniker: "XtarZ.NuForm" },
+  {
+    ipBrand: "XtarZ.GTM",
+    scope: "GTM Star Shifts",
+    moniker: "XtarZ.GTM.NuForm",
+  },
+];
+
+export const StranovateData = [
+  {
+    ipBrand: "Stranovate.Def",
+    scope: "Innovation Definition",
+    moniker: "Stranovate.Def",
+  },
+  {
+    ipBrand: "Stranovate.Value",
+    scope: "Value Innovation Process",
+    moniker: "Stranovate.Value",
+  },
+  {
+    ipBrand: "Stranovate.Cost",
+    scope: "Cost Innovation Process",
+    moniker: "Stranovate.Cost",
+  },
+  {
+    ipBrand: "I-Stroice",
+    scope: "Innovation Strategy",
+    moniker: "I-Stroice.Stranovate",
+  },
+  {
+    ipBrand: "I-Portals",
+    scope: "Innovation Portfolio Management",
+    moniker: "I-Portals.Stroice.Stranovate",
+  },
+];
+
+export const StractivateData = [
+  {
+    ipBrand: "Stranovate.Def",
+    scope: "Innovation Definition",
+    moniker: "Stranovate.Def",
+  },
+];
+
+export const FlrData = [
+  { ipBrand: "Innate", scope: "Potential Management", moniker: "Innate.Flr" },
+  { ipBrand: "Manifest", scope: "Skills Management", moniker: "Manifest.Flr" },
+  {
+    ipBrand: "I-Purpose",
+    scope: "Individual Coaching",
+    moniker: "I-Purpose.Flr",
+  },
+  {
+    ipBrand: "UnProcess",
+    scope: "Intuitive Processes",
+    moniker: "UnProcess.Flr",
+  },
+  { ipBrand: "QnA", scope: "QnA Process", moniker: "QnA.UnProcess.Flr" },
+];
