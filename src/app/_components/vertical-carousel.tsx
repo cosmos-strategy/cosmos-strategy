@@ -29,7 +29,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
   return (
     <section
       id="our-differentiators"
-      className="w-screen hidden md:flex md:min-h-screen items-start relative justify-start bg-background py-16 md:py-16 flex-col"
+      className="w-screen flex md:min-h-screen items-start relative justify-start bg-background py-16 md:py-16 flex-col"
     >
       <div className="container">
         <h2 className="flex self-start items-start justify-start flex-col leading-[1.1] mb-8 left-0 top-[125px]">
@@ -51,7 +51,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
                 <TabsTrigger
                   value={item.title}
                   key={index}
-                  className="flex flex-row items-center justify-start gap-6 py-0  w-full min-w-[280px] text-wrap md:text-nowrap"
+                  className="flex flex-row items-center justify-start gap-6 py-0  w-full min-w-[280px] text-wrap md:text-nowrap border md:border-0 border-foreground/20 data-[state=active]:bg-foreground/35 bg-foreground/20 md:bg-transparent"
                 >
                   <Image
                     alt="Our Trrain"
@@ -252,7 +252,7 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
               <Image
                 alt="Our Trrain"
                 className="w-1/2 md:w-[280px] mt-6"
-                src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rVRfWxEAy3gtZBquPl7NxMiLpXGhQTs0e56Ujf"
+                src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rV9OUr9kSsBLMxYWoIGO3RCySdbVFvJQ2PTD1e"
                 width={300}
                 height={300}
               />
@@ -272,8 +272,8 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
               </h4>
               <Image
                 alt="Our Trrain"
-                className="w-1/2 md:w-[280px] mt-6"
-                src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rV4W9wl258tCRcZbLox5S9hfdI037uwUEjeQWF"
+                className="w-1/2 md:w-[320px] mt-6"
+                src="https://zkok4chdpn.ufs.sh/f/ZowmNmBHF7rVEq0tznju0zWUIx2n4d3qVoc6HZ18CMw7JKie"
                 width={300}
                 height={300}
               />

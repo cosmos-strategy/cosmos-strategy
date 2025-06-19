@@ -27,10 +27,10 @@ const MobileNavDuplicate: FC<MobileNavDuplicateProps> = ({
   return (
     <div
       className={cn(
-        "fixed inset-0 top-24 z-50 grid min-h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-md animate-in slide-in-from-bottom-80 xl:hidden"
+        "fixed inset-0 top-24 z-50 grid min-h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-md animate-in slide-in-from-bottom-80 xl:hidden bg-background"
       )}
     >
-      <div className="relative z-20 grid gap-6 rounded-md bg-popover p-4 text-popover-foreground shadow-md">
+      <div className="relative z-20 grid gap-6 rounded-md bg-foreground/20 p-4 text-popover-foreground shadow-md">
         <nav className="grid grid-flow-row auto-rows-ma gap-4 x text-sm">
           {items.map((item, i) => (
             <div
@@ -45,7 +45,7 @@ const MobileNavDuplicate: FC<MobileNavDuplicateProps> = ({
                   href={item.disabled ? "#" : item.href}
                   onClick={removeHandler}
                   className={cn(
-                    "flex w-full items-center rounded-md px-2 text-pargrpah_heading font-medium hover:underline",
+                    "flex w-full items-center rounded-md px-2 text-pargrpah_heading text-primary-foreground font-medium hover:underline",
                     item.disabled && "cursor-not-allowed opacity-60"
                   )}
                 >
@@ -59,7 +59,7 @@ const MobileNavDuplicate: FC<MobileNavDuplicateProps> = ({
                       href={subItem.disabled ? "#" : subItem.href}
                       onClick={removeHandler}
                       className={cn(
-                        "flex w-full items-center rounded-md px-2 text-subtitle_heading font-medium mb-1.5 hover:underline",
+                        "flex w-full items-center rounded-md px-2 text-subtitle_heading font-medium mb-1.5 hover:underline text-foreground",
                         subItem.disabled && "cursor-not-allowed opacity-60"
                       )}
                     >

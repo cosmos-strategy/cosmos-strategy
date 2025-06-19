@@ -126,7 +126,7 @@ export default function OurOfferPage() {
         </div>
       </div>
       <VerticalCarousel />
-      <VerticalCarouselMobile />
+      {/* <VerticalCarouselMobile /> */}
       <OfferTerrain />
       <OurPractices />
       {/* <StickySlider /> */}
