@@ -60,7 +60,9 @@ const VerticalCarousel: FC<VerticalCarouselProps> = () => {
                     width={38}
                     height={38}
                   />
-                  <p className="text-foreground text-center">{item.title}</p>
+                  <p className="text-foreground text-start md:text-center">
+                    {item.title}
+                  </p>
                 </TabsTrigger>
               );
             })}
